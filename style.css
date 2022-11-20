@@ -79,7 +79,12 @@ body{
     line-height: 22px;
     margin-top: 24px;
     display: flex;
+    justify-content: space-around;
+    gap: 56px;
 }
-.footer__container{
+.footers__texts{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 9px;
 
 }
