@@ -11,6 +11,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(./images/bg-pattern-bottom.svg), url(./images/bg-pattern-top.svg);
+    background-position: bottom -30rem right -25rem, top -30rem left -30rem;
+    background-repeat: no-repeat, no-repeat;
+    
+
 }
 
 #avatar__img{
@@ -74,8 +79,8 @@ body{
 }
 .footers__nummbers{
     color: #2E3349;
-    font-weight: 700;
-    font-size: 18px;
+    font-weight: 400;
+    font-size: 0.9rem;
     line-height: 22px;
     margin-top: 24px;
     display: flex;
@@ -85,6 +90,7 @@ body{
 .footers__texts{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 9px;
+    margin-top: 9px;
+    gap: 59px;
 
 }
